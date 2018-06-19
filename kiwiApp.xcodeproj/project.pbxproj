@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		4A1FA10020AA24D60046FDF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FA0FF20AA24D60046FDF8 /* AppDelegate.swift */; };
-		4A1FA10220AA24D60046FDF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FA10120AA24D60046FDF8 /* ViewController.swift */; };
 		4A1FA10520AA24D60046FDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FA10320AA24D60046FDF8 /* Main.storyboard */; };
 		4A1FA10720AA24E40046FDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FA10620AA24E40046FDF8 /* Assets.xcassets */; };
 		4A1FA10A20AA24E50046FDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FA10820AA24E50046FDF8 /* LaunchScreen.storyboard */; };
+		4A1FA11320B96C000046FDF8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FA11220B96C000046FDF8 /* NetworkManager.swift */; };
+		4A1FA11820B9AAC40046FDF8 /* FlightManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FA11720B9AAC40046FDF8 /* FlightManager.swift */; };
+		4A1FA11A20B9AB220046FDF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FA11920B9AB220046FDF8 /* Constants.swift */; };
+		4A7230DE20C851C600DDEFC0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7230DD20C851C600DDEFC0 /* CoreDataManager.swift */; };
+		4A7230E120C851F500DDEFC0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7230E020C851F500DDEFC0 /* CoreData.framework */; };
+		4A7C3FEC20C98D530055A17E /* MainPageViewControllre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C3FEB20C98D530055A17E /* MainPageViewControllre.swift */; };
+		4ADC896420D0277900FCEBE5 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC896320D0277800FCEBE5 /* SubViewController.swift */; };
+		4ADC896D20D0296600FCEBE5 /* kiwiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC896B20D0296600FCEBE5 /* kiwiApp.xcdatamodeld */; };
+		4ADC897020D8F85900FCEBE5 /* TransferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC896E20D8F85900FCEBE5 /* TransferTableViewCell.swift */; };
+		4ADC897120D8F85900FCEBE5 /* TransferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC896F20D8F85900FCEBE5 /* TransferTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A1FA0FC20AA24D60046FDF8 /* kiwiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1FA0FF20AA24D60046FDF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A1FA10120AA24D60046FDF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A1FA10420AA24D60046FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A1FA10620AA24E40046FDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A1FA10920AA24E50046FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A1FA10B20AA24E50046FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1FA11220B96C000046FDF8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4A1FA11720B9AAC40046FDF8 /* FlightManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightManager.swift; sourceTree = "<group>"; };
+		4A1FA11920B9AB220046FDF8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4A7230DD20C851C600DDEFC0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4A7230E020C851F500DDEFC0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A7C3FEB20C98D530055A17E /* MainPageViewControllre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewControllre.swift; sourceTree = "<group>"; };
+		4ADC896320D0277800FCEBE5 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		4ADC896C20D0296600FCEBE5 /* kiwiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kiwiApp.xcdatamodel; sourceTree = "<group>"; };
+		4ADC896E20D8F85900FCEBE5 /* TransferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferTableViewCell.swift; sourceTree = "<group>"; };
+		4ADC896F20D8F85900FCEBE5 /* TransferTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7230E120C851F500DDEFC0 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,7 @@
 			children = (
 				4A1FA0FE20AA24D60046FDF8 /* kiwiApp */,
 				4A1FA0FD20AA24D60046FDF8 /* Products */,
+				4A7230DF20C851F400DDEFC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,62 @@
 		4A1FA0FE20AA24D60046FDF8 /* kiwiApp */ = {
 			isa = PBXGroup;
 			children = (
+				4ADC896220D0257B00FCEBE5 /* ViewControllers */,
+				4A1FA11120B966770046FDF8 /* Network */,
+				4A7230E220C8522900DDEFC0 /* CoreData */,
+				4A1FA11420B987420046FDF8 /* Support */,
 				4A1FA0FF20AA24D60046FDF8 /* AppDelegate.swift */,
-				4A1FA10120AA24D60046FDF8 /* ViewController.swift */,
 				4A1FA10320AA24D60046FDF8 /* Main.storyboard */,
 				4A1FA10620AA24E40046FDF8 /* Assets.xcassets */,
 				4A1FA10820AA24E50046FDF8 /* LaunchScreen.storyboard */,
 				4A1FA10B20AA24E50046FDF8 /* Info.plist */,
 			);
 			path = kiwiApp;
+			sourceTree = "<group>";
+		};
+		4A1FA11120B966770046FDF8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FA11220B96C000046FDF8 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4A1FA11420B987420046FDF8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FA11920B9AB220046FDF8 /* Constants.swift */,
+				4ADC896E20D8F85900FCEBE5 /* TransferTableViewCell.swift */,
+				4ADC896F20D8F85900FCEBE5 /* TransferTableViewCell.xib */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4A7230DF20C851F400DDEFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7230E020C851F500DDEFC0 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7230E220C8522900DDEFC0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC896B20D0296600FCEBE5 /* kiwiApp.xcdatamodeld */,
+				4A7230DD20C851C600DDEFC0 /* CoreDataManager.swift */,
+				4A1FA11720B9AAC40046FDF8 /* FlightManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4ADC896220D0257B00FCEBE5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C3FEB20C98D530055A17E /* MainPageViewControllre.swift */,
+				4ADC896320D0277800FCEBE5 /* SubViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +192,7 @@
 			files = (
 				4A1FA10A20AA24E50046FDF8 /* LaunchScreen.storyboard in Resources */,
 				4A1FA10720AA24E40046FDF8 /* Assets.xcassets in Resources */,
+				4ADC897120D8F85900FCEBE5 /* TransferTableViewCell.xib in Resources */,
 				4A1FA10520AA24D60046FDF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A1FA10220AA24D60046FDF8 /* ViewController.swift in Sources */,
+				4A7C3FEC20C98D530055A17E /* MainPageViewControllre.swift in Sources */,
+				4ADC896D20D0296600FCEBE5 /* kiwiApp.xcdatamodeld in Sources */,
+				4A1FA11320B96C000046FDF8 /* NetworkManager.swift in Sources */,
+				4ADC896420D0277900FCEBE5 /* SubViewController.swift in Sources */,
+				4A1FA11820B9AAC40046FDF8 /* FlightManager.swift in Sources */,
+				4ADC897020D8F85900FCEBE5 /* TransferTableViewCell.swift in Sources */,
 				4A1FA10020AA24D60046FDF8 /* AppDelegate.swift in Sources */,
+				4A7230DE20C851C600DDEFC0 /* CoreDataManager.swift in Sources */,
+				4A1FA11A20B9AB220046FDF8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.to.kiwiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.to.kiwiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -334,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4ADC896B20D0296600FCEBE5 /* kiwiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4ADC896C20D0296600FCEBE5 /* kiwiApp.xcdatamodel */,
+			);
+			currentVersion = 4ADC896C20D0296600FCEBE5 /* kiwiApp.xcdatamodel */;
+			path = kiwiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4A1FA0F420AA24D50046FDF8 /* Project object */;
 }

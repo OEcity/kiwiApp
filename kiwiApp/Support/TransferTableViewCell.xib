@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TransferTableViewCell" customModule="kiwiApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="OEv-LU-isE">
+                        <rect key="frame" x="8" y="8" width="148" height="55.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KRAKOW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uJY-fn-bI0">
+                                <rect key="frame" x="0.0" y="0.0" width="148" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19.7.1055 11:11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-us-LXy">
+                                <rect key="frame" x="0.0" y="30" width="148" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="J2L-mH-ion">
+                        <rect key="frame" x="164" y="8" width="148" height="55.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KRAKOW DE LA LA LA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="o1G-iw-2AO">
+                                <rect key="frame" x="0.0" y="0.0" width="148" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19.7.1055 11:11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hao-Nv-BXp">
+                                <rect key="frame" x="54" y="30" width="94" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.25057768485915494" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="OEv-LU-isE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="14L-FK-XRg"/>
+                    <constraint firstItem="J2L-mH-ion" firstAttribute="width" secondItem="OEv-LU-isE" secondAttribute="width" id="D9G-Sb-KqC"/>
+                    <constraint firstItem="J2L-mH-ion" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="E46-aP-MNA"/>
+                    <constraint firstItem="OEv-LU-isE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="OgD-bo-sxO"/>
+                    <constraint firstAttribute="bottom" secondItem="J2L-mH-ion" secondAttribute="bottom" constant="8" id="bsz-OM-eQn"/>
+                    <constraint firstAttribute="bottom" secondItem="OEv-LU-isE" secondAttribute="bottom" constant="8" id="dJy-DZ-drI"/>
+                    <constraint firstAttribute="trailing" secondItem="J2L-mH-ion" secondAttribute="trailing" constant="8" id="fWy-Mm-ZJ7"/>
+                    <constraint firstItem="J2L-mH-ion" firstAttribute="leading" secondItem="OEv-LU-isE" secondAttribute="trailing" constant="8" id="qlw-F2-5Zx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.066598811619718312" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aTimeLbl" destination="hao-Nv-BXp" id="uGZ-2m-IcS"/>
+                <outlet property="cityFromLbl" destination="uJY-fn-bI0" id="8tu-Qc-mDm"/>
+                <outlet property="cityToLbl" destination="o1G-iw-2AO" id="WPD-ms-0xd"/>
+                <outlet property="dTimeLbl" destination="tAx-us-LXy" id="cq6-bv-7Cf"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
